@@ -9,6 +9,9 @@ h1,h2,h3,h4,h5,h6, p {
 	margin-bottom: 0;
 
 }
+img {
+    display: block;
+}
 ul {
     list-style-type: none;
 	margin-top: 0;
@@ -40,10 +43,12 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    
+    width: 1158px;
+    padding: 0 15px;
 }
 .header-links {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     align-items: flex-start;
     gap: 40px;
 
@@ -67,6 +72,11 @@ body {
 }
 .text-raleway {
     color: #2e2f42;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
 }
 .header-nav {
     font-weight: 500;
@@ -264,10 +274,14 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
     
     
 }
 .portfolio-li:not(:first-child) {
+    padding-top: 120px;
+    padding-bottom: 120px;
    margin-left: 24px;
    width: 360px;
    height: 420px;
@@ -275,6 +289,7 @@ body {
 
 }
 .our-portfolio {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -299,10 +314,14 @@ body {
 .footer {
     background-color: #2e2f42;
 }
+.footer .container {
+    padding: 100px 0;
+}
 .footer-paragraph {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -312,6 +331,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .text-raleway-bot {
     color: #f4f4fd;
