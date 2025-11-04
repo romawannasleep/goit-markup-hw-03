@@ -99,7 +99,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding-right: 156px;
+    padding: 24px 0;
     
 }
 .address-component {
@@ -120,6 +120,7 @@ body {
     justify-content: center;
     text-align: center;
     height: 600px;
+    padding: 188px 0;
     
 
 }
@@ -154,13 +155,14 @@ body {
     letter-spacing: 0.04em; */
     color: #ffffff;
     cursor: pointer;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     padding: 16px 32px;
     gap: 10px;
-    
+    border: none;
+    border-radius: 4px;
     text-align: center;
     margin-top: 48px;
     
@@ -184,7 +186,7 @@ body {
  overflow: hidden;
 }
 .benefits {
-    
+    padding: 120px 0;
 }
 .benefits-ul {
     display: flex;
