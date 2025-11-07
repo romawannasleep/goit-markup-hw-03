@@ -27,6 +27,7 @@ body {
     font-family: "Roboto", sans-serif;
     color:  #434455;
     background-color: #FFFFFF;
+    width: 1440px;
 }
 /* #region header */
 .container {
@@ -137,7 +138,7 @@ body {
     
 }
 .hero .container {
-    margin: 188px;
+    /* margin: 188px; */
     /* height: 600px;
     width: auto; */
     display: flex;
@@ -152,15 +153,15 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    /* line-height: 1.5;
-    letter-spacing: 0.04em; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
     display: block;
     flex-wrap: wrap;
+    min-height: 56px;
     min-width: 169px;
-    height: 56px;
-    padding: 16px 32px;
+    padding: 0 0;
     gap: 10px;
     border: none;
     border-radius: 4px;
@@ -202,7 +203,6 @@ body {
 .li-benefits {
     height: 104px;
     width: calc((100% - 3 * 24px) / 4);
-    margin-left: 24px;
 }
 .title-one {
     font-weight: 500;
@@ -246,15 +246,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 24px;
 
     
 }
 .members {
     background-color: #FFFFFF;
-    margin-left: 24px;
     margin-top: 72px;
     height: 380px;
-    width: 264px;
     justify-content: center;
     text-align: center;
     gap: 24px;
@@ -280,7 +279,7 @@ body {
 }
 /* #endregion section-3 */
 .portfolio {
-    padding: 120px 156px;
+    padding-top: 120px;
 }
 .portfolio .container {
     height: 1000px;
@@ -310,6 +309,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    /* margin-bottom: 72px; */
     
 }
 .portfolio-component {
