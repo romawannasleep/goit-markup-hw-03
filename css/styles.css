@@ -27,7 +27,6 @@ body {
     font-family: "Roboto", sans-serif;
     color:  #434455;
     background-color: #FFFFFF;
-    width: 1440px;
     
 }
 /* #region header */
@@ -279,7 +278,7 @@ body {
 }
 /* #endregion section-3 */
 .portfolio {
-    padding-top: 120px;
+    padding: 120px 0;
 }
 .portfolio .container {
     height: 1000px;
@@ -292,7 +291,6 @@ body {
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    padding-top: 72px ;
     
     
 }
@@ -309,8 +307,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    /* margin-bottom: 72px; */
+    margin-bottom: 72px;
     
+}
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .portfolio-component {
     font-weight: 500;
@@ -329,19 +333,10 @@ body {
 .footer {
     display: block;
     background-color: #2e2f42;
-    height: 312px;
-    width: 1440px;
-    
+    padding: 100px 0;
 }
 .footer .container {
-    display: flex;
-    padding: 100px 0;
-    height: 112px;
-    width: 264px;
-    margin-left: 156px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+
 }
 .footer-paragraph {
     line-height: 1.5;
@@ -362,7 +357,6 @@ body {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 149px;
     
 }
 .text-raleway-bot {
