@@ -31,7 +31,7 @@ body {
 }
 /* #region header */
 .container {
-    
+    width: 1129px;
     margin: 0 auto;
     padding: 0;
 }
@@ -59,9 +59,6 @@ body {
     align-items: center;
     flex-shrink: 0;
     margin-right: 76px;
-    margin-left: 156px;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -77,7 +74,6 @@ body {
 .page-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 .header-nav {
     font-weight: 500;
@@ -86,6 +82,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -101,7 +98,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
     
 }
 .address-component {
@@ -193,7 +189,6 @@ body {
 .benefits-ul {
     display: flex;
     flex-direction: row;
-    margin: 120px;
     gap: 24px;
 }
 .benefits .container {
@@ -228,10 +223,7 @@ body {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-.team .container {
-    height: 732px;
-    padding-top: 120px;
-}
+
 .our-team {
     font-weight: 700;
     font-size: 36px;
@@ -268,6 +260,9 @@ body {
 }
 .members .container {
     padding: 32px 0;
+    display: inline;
+    align-items: center;
+    max-width: 264px;
 
 }
 .members.paragraph {
